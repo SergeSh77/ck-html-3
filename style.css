@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+section {
+  background-image: url(image/kak-publikovatsya-v-smi.jpg);
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+  justify-content: center;
+  gap: 100px;
+}
+section .block {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+section .block .block_header {
+  width: 100%;
+  height: 60px;
+  background-color: seagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+section .block .block_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  flex-direction: column;
+  font-size: 32px;
+  color: orangered;
+}
+section .block button {
+  width: 150px;
+  height: 40px;
+  border: 0;
+  background-color: orangered;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
